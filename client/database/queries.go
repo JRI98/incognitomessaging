@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/JRI98/yeomessaging/client/database/queries"
-	"github.com/JRI98/yeomessaging/internal/ed25519"
-	"github.com/JRI98/yeomessaging/internal/x25519"
-	"github.com/JRI98/yeomessaging/internal/xchacha20poly1305"
+	"github.com/JRI98/incognitomessaging/client/database/queries"
+	"github.com/JRI98/incognitomessaging/internal/ed25519"
+	"github.com/JRI98/incognitomessaging/internal/x25519"
+	"github.com/JRI98/incognitomessaging/internal/xchacha20poly1305"
 )
 
 func (database *Database) CreatePassword(ctx context.Context, salt []byte) error {

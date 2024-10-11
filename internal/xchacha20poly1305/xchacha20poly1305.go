@@ -1,7 +1,7 @@
 package xchacha20poly1305
 
 import (
-	"github.com/JRI98/yeomessaging/internal/cryptorandom"
+	"github.com/JRI98/incognitomessaging/internal/cryptorandom"
 	"golang.org/x/crypto/chacha20poly1305"
 )
 

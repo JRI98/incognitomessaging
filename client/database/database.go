@@ -6,7 +6,7 @@ import (
 	_ "embed"
 	"fmt"
 
-	"github.com/JRI98/yeomessaging/client/database/queries"
+	"github.com/JRI98/incognitomessaging/client/database/queries"
 	_ "github.com/mattn/go-sqlite3"
 )
 

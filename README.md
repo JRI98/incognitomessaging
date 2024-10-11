@@ -1,4 +1,4 @@
-# YEO Messaging - Your Eyes Only Messaging
+# Incognito Messaging
 
 Implementation of an end-to-end encrypted messaging service. Loosely inspired by [Signal](https://signal.org/docs) but trying to be simpler by keeping the messages ordered in the server. Makes use of [NATS](https://nats.io) in the server and [SQLite](https://www.sqlite.org/) to store the messages locally.
 

@@ -12,8 +12,8 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/JRI98/yeomessaging/internal/ed25519"
-	"github.com/JRI98/yeomessaging/server/handlers"
+	"github.com/JRI98/incognitomessaging/internal/ed25519"
+	"github.com/JRI98/incognitomessaging/server/handlers"
 	"github.com/go-playground/validator/v10"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"slices"
 
-	"github.com/JRI98/yeomessaging/internal/ed25519"
-	"github.com/JRI98/yeomessaging/server/services"
+	"github.com/JRI98/incognitomessaging/internal/ed25519"
+	"github.com/JRI98/incognitomessaging/server/services"
 	"github.com/labstack/echo/v4"
 )
 

@@ -18,12 +18,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/JRI98/yeomessaging/client/database"
-	"github.com/JRI98/yeomessaging/internal/argon2id"
-	"github.com/JRI98/yeomessaging/internal/cryptorandom"
-	"github.com/JRI98/yeomessaging/internal/ed25519"
-	"github.com/JRI98/yeomessaging/internal/x25519"
-	"github.com/JRI98/yeomessaging/internal/xchacha20poly1305"
+	"github.com/JRI98/incognitomessaging/client/database"
+	"github.com/JRI98/incognitomessaging/internal/argon2id"
+	"github.com/JRI98/incognitomessaging/internal/cryptorandom"
+	"github.com/JRI98/incognitomessaging/internal/ed25519"
+	"github.com/JRI98/incognitomessaging/internal/x25519"
+	"github.com/JRI98/incognitomessaging/internal/xchacha20poly1305"
 	"golang.org/x/term"
 )
 

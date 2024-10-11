@@ -1,4 +1,4 @@
-module github.com/JRI98/yeomessaging
+module github.com/JRI98/incognitomessaging
 
 go 1.22.3
 
